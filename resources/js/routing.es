@@ -1,6 +1,6 @@
-angular.module('example.my_plugin').config(($routeProvider) => {
-    $routeProvider.when('/view/my_plugin', {
-        templateUrl: '/my_plugin:resources/partial/index.html',
-        controller: 'MyPluginIndexController',
+angular.module('raspi.raspi-temp').config(($routeProvider) => {
+    $routeProvider.when('/view/raspi-temp', {
+        templateUrl: '/raspi-temp:resources/partial/raspi-temp.html',
+        controller: 'RaspiTempWidgetController',
     });
 });

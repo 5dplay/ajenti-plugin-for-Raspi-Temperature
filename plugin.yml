@@ -1,18 +1,18 @@
-name: my_plugin
-author: Unknown
+name: raspi-temp
+author: ccs
 email: nobody@nowhere.com
 url: http://example.com
 version: '0.1'
-title: 'my_plugin'
-icon: question
+title: 'raspi temperature'
+icon: terminal
 # dependency on Core is required for UI plugins
 dependencies:
     - !!python/object:aj.plugins.PluginDependency {
         plugin_name: core
     }
-    # - !!python/object:aj.plugins.OptionalPluginDependency {
-    #   plugin_name: my_other_plugin
-    # }
+    - !!python/object:aj.plugins.OptionalPluginDependency {
+      plugin_name: dashboard
+    }
     # - !!python/object:aj.plugins.ModuleDependency {
     #   module_name: requests
     # }

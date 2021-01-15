@@ -1,3 +1,3 @@
-# Ajenti plugin template
+# Ajenti plugin
+a widget to display the temperature of Raspberry Pi
 
-This is the plugin template used by ajenti-dev-multitool
